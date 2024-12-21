@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoWoW</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>VoWoW</h1>
+    <!-- input form -->
+    <form id="option-form" onsubmit="addOption(event)">
+        <input type="text" id="new-option" placeholder="Enter new option" required>
+        <button type="submit">Add Option</button>
+    </form>
+
+    <!-- options container -->
+    <div id="options" class="options-container"></div> <!-- Ensure this is at the bottom -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
