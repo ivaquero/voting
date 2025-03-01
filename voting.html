@@ -16,8 +16,16 @@
         <button type="submit">Add Option</button>
     </form>
 
-    <!-- options container -->
-    <div id="options" class="options-container"></div> <!-- Ensure this is at the bottom -->
+    <!-- Options container -->
+    <div id="options" class="options-container"></div>
+
+    <!-- Section for displaying added options -->
+    <ul id="added-options-list"></ul>
+
+    <!-- Clear form of options -->
+    <form id="clear-options-form" onsubmit="clearOptions(event)">
+        <button type="submit">Clear Options</button>
+    </form>
 
     <script src="script.js"></script>
 </body>
