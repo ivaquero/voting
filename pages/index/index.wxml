@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<navigation-bar title="Wexin" back="{{false}}" color="black" background="#FFF">
+</navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+    <view class="container">
+        Wexin
+</view>
+</scroll-view>

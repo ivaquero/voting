@@ -1,0 +1,16 @@
+{
+    "page": [
+        "page/index/index"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "style": "v2",
+    "renderer": "skyline",
+    "rendererOption": {
+        "skyline": {
+            "defaultDisplayBlock": true
+        }
+    }
+}
