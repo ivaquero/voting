@@ -6,3 +6,6 @@
         Wexin
 </view>
 </scroll-view>
+<view class="button">
+    按钮
+</view>

@@ -1,6 +1,6 @@
 {
-    "page": [
-        "page/index/index"
+    "pages": [
+        "pages/index/index"
     ],
     "window": {
         "navigationBarTextStyle": "black",
@@ -8,9 +8,13 @@
     },
     "style": "v2",
     "renderer": "skyline",
-    "rendererOption": {
+    "rendererOptions": {
         "skyline": {
-            "defaultDisplayBlock": true
+            "defaultDisplayBlock": true,
+            "defaultContentBox": true,
+            "tagNameStyleIsolation": "legacy"
         }
-    }
+    },
+    "lazyCodeLoading": "requiredComponents",
+    "componentsFramework": "glass-easel"
 }
