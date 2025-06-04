@@ -4,7 +4,13 @@
     ],
     "window": {
         "navigationBarTextStyle": "black",
-        "navigationStyle": "custom"
+        "navigationStyle": "default",
+        "navigationBarTitleText": "Let Me See",
+        "navigationBarBackgroundColor": "#ffffff",
+        "enablePullDownRefresh": true
+    },
+    "tarBar": {
+        "list": {}
     },
     "style": "v2",
     "renderer": "skyline",
@@ -12,9 +18,12 @@
         "skyline": {
             "defaultDisplayBlock": true,
             "defaultContentBox": true,
-            "tagNameStyleIsolation": "legacy"
+            "tagNameStyleIsolation": "legacy",
+            "disableABTest": true,
+            "sdkVersionBegin": "3.0.0"
         }
     },
     "lazyCodeLoading": "requiredComponents",
+    "sitemapLocation": "sitemap.json",
     "componentsFramework": "glass-easel"
 }
