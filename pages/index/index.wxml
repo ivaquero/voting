@@ -1,3 +1,0 @@
-<scroll-view class="scrollarea" scroll-y="true" style="height: 300px;">
-    <view class="title">按钮</view>
-</scroll-view>
